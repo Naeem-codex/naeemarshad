@@ -42,11 +42,11 @@ I built and launched the full store from start to finish: the homepage, collecti
 The store is live at packandgotote.com. The client's review on Upwork is shown below, with a screenshot of the original review.`,
 
   // IMAGES: first image is the card cover. Click an image on the project page to open it full size.
-  images: [
-    '/portfolio/pack-and-go-tote-rentals/1-homepage.jpg',
-    '/portfolio/pack-and-go-tote-rentals/2-product-page.jpg',
-    '/portfolio/pack-and-go-tote-rentals/3-booking-calendar.jpg'
-  ],
+images: [
+  `${import.meta.env.BASE_URL}portfolio/pack-and-go-tote-rentals/1-homepage.jpg`,
+  `${import.meta.env.BASE_URL}portfolio/pack-and-go-tote-rentals/2-product-page.jpg`,
+  `${import.meta.env.BASE_URL}portfolio/pack-and-go-tote-rentals/3-booking-calendar.jpg`
+],
 
   // CUSTOMER REVIEW for this project. Delete the whole review block if there is no review yet.
   review: {

@@ -4,7 +4,7 @@ export default {
   title: 'Web Developer & Digital Solution Provider',   // big title of the About page
   name: 'Naeem Arshad',                                  // name under the photo
   role: 'Web Developer & Digital Solution Provider',     // line under the name
-  photo: '/naeem.jpg',                                   // your photo (file in the public folder)
+  photo: `${import.meta.env.BASE_URL}naeem.jpg`,                                   // your photo (file in the public folder)
 
   // FULL DESCRIPTION: write or paste your own text between the two backticks `.
   description: `## ABOUT ME

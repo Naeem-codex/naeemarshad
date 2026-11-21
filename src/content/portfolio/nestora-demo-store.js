@@ -41,10 +41,9 @@ This is a demo store made to show my work. The products and the customer reviews
 
   // IMAGES: first image is the card cover. Click an image on the project page to open it full size.
   images: [
-    '/portfolio/nestora-demo-store/1-homepage.jpg',
-    '/portfolio/nestora-demo-store/2-product-page.jpg'
-  ],
-
+  `${import.meta.env.BASE_URL}portfolio/nestora-demo-store/1-homepage.jpg`,
+  `${import.meta.env.BASE_URL}portfolio/nestora-demo-store/2-product-page.jpg`
+],
   // CUSTOMER REVIEW: none for a demo store. (Delete this line and use a review block if you get one.)
   review: null
 }

@@ -69,7 +69,7 @@ export function Hero() {
         <div className="hero-actions"><button type="button" onClick={() => openHire()} className="button button-orange">Discuss Your Project <ArrowRight size={18} /></button><Link to="/portfolio" className="button button-outline">View My Work</Link></div>
       </div>
       <div className="hero-visual">
-        <div className="portrait-frame"><img src="/naeem.jpg" alt="Profile photo placeholder — replace with Naeem's own photo" /></div>
+        <div className="portrait-frame"><img src={`${import.meta.env.BASE_URL}naeem.jpg`} alt="Naeem Arshad - Web Developer" /></div>
         <div className="portrait-caption"><b>{heroName}</b><span>{heroRole}</span><small>{heroRating}</small><div className="portrait-stars" aria-label="5 star client satisfaction">{[0, 1, 2, 3, 4].map(n => <Star key={n} size={18} fill="currentColor" />)}</div></div>
       </div>
     </div>
