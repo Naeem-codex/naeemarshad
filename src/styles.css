@@ -431,3 +431,16 @@ a.portfolio-card{color:inherit;text-decoration:none}
 .platform-section {
     display: none !important;
 }
+
+/* Header profile photo */
+.brand-photo {
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid var(--orange);
+  display: block;
+  flex-shrink: 0;
+}

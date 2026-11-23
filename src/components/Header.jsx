@@ -30,7 +30,7 @@ export default function Header() {
 
     <div className="nav-wrap container">
       <Link className="brand" to="/" onClick={() => setOpen(false)}>
-        <span className="brand-mark">NA</span><span>Naeem Arshad<small>WEB DEVELOPMENT</small></span>
+        <img className="brand-photo" src="/naeem.jpg" alt="Naeem Arshad" /><span>Naeem Arshad<small>WEB DEVELOPMENT</small></span>
       </Link>
       <button className="mobile-toggle" onClick={() => setOpen(!open)} aria-label="Toggle menu">
         {open ? <X /> : <Menu />}

@@ -34,24 +34,36 @@ function Rotator({ items, as: Tag = 'div', delay = 0, render }) {
     const t1 = setInterval(() => {
       setOut(true)
       t2 = setTimeout(() => { setI(v => (v + 1) % items.length); setOut(false) }, 450)
-    }, 4000)
+    }, 7000)
     return () => { clearInterval(t1); clearTimeout(t2) }
   }, [items.length])
   return <Tag className={out ? 'rotator rotator-out' : 'rotator rotator-in'} style={{ '--rot-delay': `${delay}ms` }}>{render ? render(items[i]) : items[i]}</Tag>
 }
 
 // HERO TEXTS: edit or add lines here. Each list rotates every 4 seconds.
-const heroEyebrows = ['AVAILABLE FOR NEW PROJECTS', 'SHOPIFY & WORDPRESS DEVELOPER', 'DATA ENTRY & ADMIN SUPPORT']
+
+
+const heroEyebrows = [
+  'AVAILABLE FOR NEW PROJECTS',
+  'SHOPIFY & WORDPRESS SPECIALIST',
+  'CUSTOM WEB DEVELOPMENT & DESIGN'
+]
+
 const heroHeadlines = [
-  ['Build a stronger ', 'online presence', ' for your business.'],
-  ['Turn more visitors ', 'into customers', ' with a modern website.'],
-  ['Launch a fast, ', 'professional website', ' that grows your brand.']
+  ['Ready to grow your business ', 'online?', ' Let’s build something great.'],
+  ['Turn your ideas into ', 'powerful online stores', ' that sell.'],
+  ['Stand out with a ', 'website that works', ' as hard as you do.']
 ]
+
 const heroIntros = [
-  'I’m Naeem Arshad. I design and develop clear, useful websites that help businesses present their services, reach customers and grow online.',
-  'From Shopify and WooCommerce stores to custom-coded websites, I build fast, mobile-friendly sites that make it easy for customers to buy and get in touch.',
-  'Need extra help? I also handle data entry, product uploads and daily admin tasks so you can focus on running your business.'
+  'I’m Naeem Arshad, a web developer and designer helping businesses build a strong online presence. I create modern, responsive and professional websites that showcase your brand, attract customers and support business growth.',
+
+  'Looking to launch or improve your online store? I build and customize Shopify and WooCommerce stores with professional designs, smooth shopping experiences and the features your business needs to sell online.',
+
+  'Need more than a basic website? I develop custom, responsive websites tailored to your goals, combining clean design, reliable functionality and user-friendly experiences to help your business move forward.'
 ]
+
+
 
 // TEXT UNDER THE PHOTO: edit these three lines (the 5 stars come after them).
 const heroName = 'NAEEM ARSHAD'
