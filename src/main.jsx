@@ -9,7 +9,7 @@ import './styles.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HelmetProvider>
-      <BrowserRouter basename="/naeemarshad">
+      <BrowserRouter>
         <App />
       </BrowserRouter>
     </HelmetProvider>
