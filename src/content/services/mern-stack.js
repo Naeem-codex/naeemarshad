@@ -6,6 +6,8 @@ export default {
   nav: 'MERN Stack',                  // short name in the top bar
   title: 'Full Stack Developer (MERN Stack)',          // big title of the service page
   short: 'Custom web applications built with MongoDB, Express, React and Node.js.',          // small text on the home page card
+  seoTitle: 'MERN Stack Developer | Full-Stack Web Development | Naeem Arshad',
+  seoDescription: 'MERN stack development using MongoDB, Express.js, React and Node.js. Custom web applications, REST APIs, dashboards, authentication and database integration.',
   logo: 'https://cdn.simpleicons.org/mongodb/47A248',                  // service logo link ('' = show the icon instead)
   icon: 'Layers',                  // icon name used when there is no logo
   category: 'Development',                  // related services are picked from the same category first

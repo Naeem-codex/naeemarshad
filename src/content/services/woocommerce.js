@@ -6,6 +6,8 @@ export default {
   nav: 'WooCommerce',                  // short name in the top bar
   title: 'WooCommerce Store Design',          // big title of the service page
   short: 'Sell products through a WordPress store designed for easy management.',          // small text on the home page card
+  seoTitle: 'WooCommerce Developer & Store Design | Naeem Arshad',
+  seoDescription: 'WooCommerce store design, WordPress e-commerce setup, product uploads, payment gateways, shipping configuration and checkout customization for businesses worldwide.',
   logo: 'https://cdn.simpleicons.org/woocommerce/96588A',                  // service logo link ('' = show the icon instead)
   icon: 'ShoppingCart',                  // icon name used when there is no logo
   category: 'Ecommerce',                  // related services are picked from the same category first

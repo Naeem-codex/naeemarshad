@@ -6,6 +6,8 @@ export default {
   nav: 'Ads Manager',                  // short name in the top bar
   title: 'Ads Manager (Meta & Google Ads)',          // big title of the service page
   short: 'Set up, manage and improve your paid ad campaigns.',          // small text on the home page card
+  seoTitle: 'Meta & Google Ads Management Services | Naeem Arshad',
+  seoDescription: 'Meta and Google Ads management for businesses. Get help with campaign setup, audience targeting, ad budgets, conversion tracking, campaign monitoring and performance reports.',
   logo: 'https://cdn.simpleicons.org/googleads/4285F4',                  // service logo link ('' = show the icon instead)
   icon: 'Megaphone',                  // icon name used when there is no logo
   category: 'Marketing',                  // related services are picked from the same category first

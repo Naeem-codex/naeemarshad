@@ -6,9 +6,11 @@ export default {
   nav: 'Ecommerce',                  // short name in the top bar
   title: 'Ecommerce Website Development',          // big title of the service page
   short: 'A professional online shop that makes browsing and buying simple.',          // small text on the home page card
-  logo: '',                  // service logo link ('' = show the icon instead)
-  icon: 'Store',                  // icon name used when there is no logo
-  category: 'Ecommerce',                  // related services are picked from the same category first
+  seoTitle: 'E-commerce Website Developer & Designer | Naeem Arshad',
+  seoDescription: 'E-commerce website development for businesses worldwide. Get professional online store design, product management, payment integration, shipping setup and checkout customization.',
+  logo: 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/solid/cart-shopping.svg',  // service logo link ('' = show the icon instead)
+  icon: 'Shopping',// icon name used when there is no logo
+  category: 'Ecommerce ONLINE STORES',                  // related services are picked from the same category first
 
   // FULL DESCRIPTION: shown under the title on the service page. Write between the two backticks `.
   description: `Starting an online business or managing an e-commerce website can be stressful. If you are just getting started, you may not know which platform to choose or how to build your online store. If your store is already live, maybe it doesn't look professional, or customers find it difficult to browse products and complete their purchases. You may also need help with product uploads, payment gateways, shipping settings, checkout problems, or mobile-friendly design. Whichever one sounds like you, you don't have to figure it all out alone. This is exactly what I help with.

@@ -6,6 +6,8 @@ export default {
   nav: 'Custom Coding',                  // short name in the top bar
   title: 'Custom Website Coding',          // big title of the service page
   short: 'Purpose-built website sections, features, fixes and front-end experiences.',          // small text on the home page card
+  seoTitle: 'Custom Website Developer | HTML, CSS & JavaScript | Naeem Arshad',
+  seoDescription: 'Custom website development using HTML, CSS and JavaScript. Get responsive business websites, landing pages, custom features, website fixes and front-end solutions.',
   logo: 'https://cdn.simpleicons.org/html5/E34F26',                  // service logo link ('' = show the icon instead)
   icon: 'Code2',                  // icon name used when there is no logo
   category: 'Development',                  // related services are picked from the same category first

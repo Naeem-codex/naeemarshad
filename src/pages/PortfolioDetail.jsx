@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/SEO'
 import { ArrowRight, ExternalLink, Star } from 'lucide-react'
 import { portfolio } from '../data'
 import { PortfolioCard, HireSection, dirClass } from '../components/Sections'
@@ -23,7 +23,11 @@ export default function PortfolioDetail() {
   const others = portfolio.filter(item => item.slug !== slug).slice(0, 3)
 
   return <>
-    <Helmet><title>{project.title} | Portfolio | Naeem Arshad</title><meta name="description" content={project.short} /></Helmet>
+    <SEO
+    title={`${project.title} | Website Project Portfolio | Naeem Arshad`}
+    description={project.short}
+    path={`/portfolio/${slug}`}
+    />
 
     <section className="service-hero service-hero-compact"><div className="container service-hero-row"><h1>{project.title}</h1><button type="button" className="button button-orange" onClick={() => openHire()}>Hire Me for a Similar Project <ArrowRight size={18} /></button></div></section>
 

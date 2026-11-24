@@ -6,6 +6,8 @@ export default {
   nav: 'Shopify',                  // short name in the top bar
   title: 'Shopify Development & Dropshipping Websites',          // big title of the service page
   short: 'Conversion-focused Shopify stores built around your brand and business goals.',          // small text on the home page card
+  seoTitle: 'Shopify Developer & Store Design | Naeem Arshad',
+  seoDescription: 'Shopify store design, setup, theme customization, dropshipping, product uploads and Liquid fixes for businesses worldwide.',
   logo: 'https://cdn.simpleicons.org/shopify/7AB55C',                  // service logo link ('' = show the icon instead)
   icon: 'ShoppingBag',                  // icon name used when there is no logo
   category: 'Ecommerce',                  // related services are picked from the same category first

@@ -6,6 +6,8 @@ export default {
   nav: 'WordPress',                  // short name in the top bar
   title: 'WordPress Design & Development',          // big title of the service page
   short: 'Flexible WordPress websites for businesses, professionals and brands.',          // small text on the home page card
+  seoTitle: 'WordPress Developer & Website Design | Naeem Arshad',
+  seoDescription: 'Professional WordPress website design, development, theme customization, mobile-friendly layouts and website improvements for businesses worldwide.',
   logo: 'https://cdn.simpleicons.org/wordpress/21759B',                  // service logo link ('' = show the icon instead)
   icon: 'PanelsTopLeft',                  // icon name used when there is no logo
   category: 'Websites',                  // related services are picked from the same category first

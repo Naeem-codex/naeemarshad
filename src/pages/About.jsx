@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/SEO'
 import { Link } from 'react-router-dom'
 import { ArrowRight, Mail, MessageCircle } from 'lucide-react'
 import { CONTACT, services } from '../data'
@@ -14,7 +14,11 @@ export default function About() {
   useReveal()
   const { openHire } = useHire()
   return <>
-    <Helmet><title>About Naeem Arshad | {about.title}</title><meta name="description" content="Learn about Naeem Arshad, web developer and digital solution provider offering Shopify, WordPress, MERN stack, ads management and data entry services." /></Helmet>
+    <SEO
+    title="About Naeem Arshad | Web Developer & Digital Solutions Specialist"
+    description="Discover Naeem Arshad's experience in Shopify, WordPress, e-commerce, custom web development and digital services for businesses worldwide."
+    path="/about"
+    />
 
     <section className="service-hero service-hero-compact"><div className="container service-hero-row"><h1>{about.title}</h1><button type="button" className="button button-orange" onClick={() => openHire()}>Hire Me <ArrowRight size={18} /></button></div></section>
 

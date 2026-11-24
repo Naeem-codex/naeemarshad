@@ -6,7 +6,9 @@ export default {
   nav: 'Data Entry',                  // short name in the top bar
   title: 'Data Entry & Admin Support',          // big title of the service page
   short: 'Accurate product uploads, spreadsheet work and everyday website administration.',          // small text on the home page card
-  logo: 'https://cdn.simpleicons.org/microsoftexcel/217346',                  // service logo link ('' = show the icon instead)
+  seoTitle: 'Data Entry & Admin Support Services | Naeem Arshad',
+  seoDescription: 'Reliable data entry and admin support services including Excel spreadsheets, Google Sheets, product uploads, data cleaning, website updates and document management.',
+  logo: 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/brands/microsoft.svg',                  // service logo link ('' = show the icon instead)
   icon: 'ClipboardList',                  // icon name used when there is no logo
   category: 'Support',                  // related services are picked from the same category first
 

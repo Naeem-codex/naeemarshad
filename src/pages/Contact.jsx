@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/SEO'
 import { Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
 import { CONTACT } from '../data'
 import HireForm from '../components/HireForm'
@@ -6,7 +6,11 @@ import HireForm from '../components/HireForm'
 // Contact page: quick contact options on the left, the same enquiry form as the Hire Me popup on the right.
 export default function Contact() {
   return <>
-    <Helmet><title>Contact Naeem Arshad | Hire a Web Developer</title><meta name="description" content="Contact Naeem Arshad for Shopify, ecommerce, WordPress and custom website development." /></Helmet>
+    <SEO
+    title="Contact Naeem Arshad | Hire a Shopify & Web Developer"
+    description="Get in touch with Naeem Arshad for Shopify, WordPress, WooCommerce, e-commerce and custom website development. Discuss your project and request a quote."
+    path="/contact"
+    />
     <div className="page-heading"><div className="container"><span className="eyebrow">GET IN TOUCH</span><h1>Let’s talk about <em>your project.</em></h1><p>Send your project details using the form, or contact me directly.</p></div></div>
     <section className="section contact-section"><div className="container contact-grid">
       <div className="contact-cards">

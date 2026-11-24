@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { Helmet } from 'react-helmet-async'
+import SEO from '../components/SEO'
 import { ArrowRight } from 'lucide-react'
 import { services, commonFaqs } from '../data'
 import { FAQSection, ReviewsSection, HireSection, ServiceIcon, dirClass } from '../components/Sections'
@@ -22,7 +22,11 @@ export default function ServicePage() {
     .sort((a, b) => (b.category === service.category) - (a.category === service.category)).slice(0, 3)
 
   return <>
-    <Helmet><title>{service.title} | Naeem Arshad</title><meta name="description" content={service.short} /><meta name="robots" content="index, follow" /></Helmet>
+    <SEO
+  title={service.seoTitle || `${service.title} | Naeem Arshad`}
+  description={service.seoDescription || service.short}
+  path={`/services/${slug}`}
+  />
 
     {/* 1. Title bar with Hire Me (opens the popup on this page) */}
     <section className="service-hero service-hero-compact"><div className="container service-hero-row"><h1>{service.title}</h1><button type="button" className="button button-orange" onClick={() => openHire(service.title)}>Hire Me <ArrowRight size={18} /></button></div></section>
